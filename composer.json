@@ -1,0 +1,23 @@
+{
+    "name": "jefftan/MyLightPHP",
+    "authors": [
+        {
+            "name": "jefftan",
+            "email": "jefftan.me@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "symfony/var-dumper": "^3.3",
+        "philo/laravel-blade": "^3.1"
+    },
+    "autoload":{
+        "psr-4": {
+            "App\\": "app/",
+            "Core\\": "core/"
+        },
+        "files":[
+            "core/functions.php"
+        ]
+    }
+}
